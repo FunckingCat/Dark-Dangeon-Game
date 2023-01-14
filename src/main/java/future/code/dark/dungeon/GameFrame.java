@@ -1,11 +1,8 @@
 package future.code.dark.dungeon;
 
-import future.code.dark.dungeon.config.Configuration;
 import future.code.dark.dungeon.controller.MovementController;
-import future.code.dark.dungeon.domen.Player;
 import future.code.dark.dungeon.service.GameMaster;
 
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.Timer;

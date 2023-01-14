@@ -1,7 +1,5 @@
 package future.code.dark.dungeon.domen;
 
-import future.code.dark.dungeon.config.Configuration;
-
 import javax.swing.ImageIcon;
 import java.awt.Graphics;
 import java.awt.Image;

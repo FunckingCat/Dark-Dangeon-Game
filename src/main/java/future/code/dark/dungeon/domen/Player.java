@@ -2,8 +2,6 @@ package future.code.dark.dungeon.domen;
 
 import future.code.dark.dungeon.config.Configuration;
 
-import java.awt.event.KeyEvent;
-
 public class Player extends DynamicObject {
     private static final int stepSize = 1;
 
