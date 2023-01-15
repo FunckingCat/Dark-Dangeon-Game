@@ -102,10 +102,10 @@ public class Map {
     public void render(Graphics graphics) {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[i].length; j++) {
-                switch (map[i][j]) {
-                    case WALL_CHARACTER -> graphics.drawImage(wallImage, j * SPRITE_SIZE, i *  SPRITE_SIZE, null);
-                    case EXIT_CHARACTER -> graphics.drawImage(exitImage, j * SPRITE_SIZE, i *  SPRITE_SIZE, null);
-                    default -> graphics.drawImage(landImage, j * SPRITE_SIZE, i *  SPRITE_SIZE, null);
+                if (map[i][j] == WALL_CHARACTER) {
+                    graphics.drawImage(wallImage, j * SPRITE_SIZE, i * SPRITE_SIZE, null);
+                } else {
+                    graphics.drawImage(landImage, j * SPRITE_SIZE, i * SPRITE_SIZE, null);
                 }
             }
         }
